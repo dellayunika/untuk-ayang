@@ -39,22 +39,15 @@ const HeroSection = ({ onStart }: HeroSectionProps) => {
           <div className="">
             <Heart className="mx-auto mb-8 text-6xl text-heart animate-pulse-heart" />
             <h1 className="text-5xl md:text-7xl font-comic font-bold text-foreground mb-4">
-              Untuk Natal,
+              Makasih untuk,
             </h1>
             <h2 className="text-4xl md:text-6xl font-comic font-bold text-primary mb-8">
-              Gantengku 💖
+              Semuanya❤️
             </h2>
             <p className="text-xl md:text-2xl font-poppins text-muted-foreground mb-12">
-              Aku buat ini spesial buat ayang, karena aku sayang banget😚
+              Senang pernah bertemu denganmu😌❤️🙏
             </p>
-            <Button 
-              onClick={handleStart}
-              className="bg-gradient-heart hover:shadow-romantic text-xl py-6 px-12 rounded-full font-poppins font-semibold transform transition-all duration-300 hover:scale-105 animate-bounce-soft"
-            >
-              <Sparkles className="mr-3" />
-              Klik di sini sayang
-              <Heart className="ml-3 animate-pulse-heart" />
-            </Button>
+            
           </div>
         ) : (
           <div className="animate-fade-in">
